@@ -11,4 +11,11 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(2, calc.add(1, 1));
 	}
+
+    @Test
+    public void testSubtract() {
+        SimpleCalculator calc = new SimpleCalculator();
+        assertEquals(2, calc.subtract(7,5));
+
+    }
 }
